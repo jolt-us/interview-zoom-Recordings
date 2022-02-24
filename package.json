@@ -15,10 +15,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jolt-us/env": "^1.2.2",
-    "@jolt-us/jolt-rpc": "^2.1.1",
-    "@jolt-us/jolt-zoom-recording-client": "^1.0.2",
-    "@jolt-us/sentry": "^1.1.1",
     "aws-sdk": "^2.654.0",
     "babel-runtime": "^6.26.0",
     "body-parser": "^1.19.0",
@@ -27,8 +23,14 @@
     "moment": "^2.24.0",
     "node-fetch": "^2.6.0"
   },
+  "peerDependencies": {
+    "@jolt-us/env": "^1.2.2",
+    "@jolt-us/jolt-rpc": "^2.1.1",
+    "@jolt-us/jolt-zoom-recording-client": "^1.0.2",
+    "@jolt-us/sentry": "^1.1.1",
+    "@jolt-us/jolt-test-utils": "^2.0.7"
+  },
   "devDependencies": {
-    "@jolt-us/jolt-test-utils": "^2.0.7",
     "@types/express": "^4.17.4",
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.11.0",
